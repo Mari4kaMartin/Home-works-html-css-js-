@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Анкета для гостя улетающего из Парижа</title>
+	</head>
+	<body>
+		<img src="http://www.vparis.net/images/hight/nepovtorimui-paris.jpg" width=40% alt="foto paris">
+		<h1>Дорогие гости!</h1>
+		<p>Перед Вами анкета, с помощью которой мы хотим узнать впечатления от Вашего пребывания в <strong>Париже</strong>.<br>
+		Наше любопытство основано исключительно на том, чтоб понимать, в каком направлении развивать следующие направления:</p>
+		<ul type="circle">
+			<li>инфраструктуру</li>
+			<li>туризм</li>
+			<li>эко-стиль жизни города</li>
+		</ul>
+		<h2>Вопросы:</h2>
+		<form name="profile" method="post" action="#" enctype="multipart/form-data">
+			<label for="name">Ваше имя:</label>
+		<br>
+            <input type="text" name="family name" id="name">
+        <br>
+        <br>
+        <p>Какого Вы года рождения:</p>
+        <select name="years">
+                <option value="1987">1987 год</option>
+                <option value="1988">1988 год</option>
+                <option value="1989">1989 год</option>
+                <option value="1990">1990 год</option>
+            </select>
+        <br>
+        <br>
+            <label for="nat_ty">Страна Вашего гражданства:</label>
+        <br>
+            <input type="text" name="nationality" id="nat_ty">
+        <br>
+        <p>Как долго Вы находились в Париже:</p>
+            <label>
+            	<input type="radio" name="days" value="до 3х дней">
+            	до 3-х дней
+            </label>
+            <label>
+            	<input type="radio" name="days" value="до 15и дней">
+            	до 15-и дней
+            </label>
+            <label>
+            	<input type="radio" name="days" value="до 15и дней">
+            	до 30-и дней и более
+            </label>
+        <br>
+        <br>
+            <label for="dest_n">Цель Вашего приезда:</label>
+		<br>
+            <input type="text" name="destination" id="dest_n">
+        <p>Какая достопримечательность в нашем городе произвела на Вас наибольшее впечатление:</p>
+            <label>
+            	<input type="checkbox" name="attractions" checked>
+            	Лувр
+            </label>
+            <label>
+            	<input type="checkbox" name="Pompidu" value="yes">
+            	Центр Помпиду
+            </label>
+            <label>
+            	<input type="checkbox" name="Monmartr" value="yes">
+            	Монмартр
+            </label>
+            <label>
+            	<input type="checkbox" name="Site" value="yes">
+            	Остров Ситэ
+            </label>
+            <p>Ждем Ваши предложения или просто отзывы о нашем городе:</p>
+            <textarea name="comment" id="com_f" rows="5" placeholder="Напишите предложение/отзыв"></textarea>
+            <br>
+            <h3>И на последок, сообщаем Вам о нашем конкурсе - "Лучшее фото этой весны", поделитесь с нами Вашим взглядом на наш любимый город. <br>
+            Вам обязательно повезет ;)</h3>
+            <p>Выберите изображение со своего компьютера</p>
+            <input type="file" name="foto">
+            <input type="submit" value="Загрузить">
+            <br>
+            <br>
+            <input type="submit" value="Отправить">
+		</form>
+	</body>
+</html>
